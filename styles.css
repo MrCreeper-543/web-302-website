@@ -1,0 +1,109 @@
+
+body{
+    background-color: #011F26;
+    color: lightgray;
+    font-size: 1em;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    background-color: #026873;
+    text-align: left;
+}
+
+footer{
+    height: fit-content;
+    width: 100%;
+    background-color: #025E73;
+    color: grey;
+    float: right; /*float right required, or footer will draw behind everything else*/
+
+}
+
+/*contact.html*/
+
+.contactBox{
+    background-color: grey;
+    border-radius: 50px;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    margin-top: 7em;
+    height: 28em;
+    width: 62em;
+    padding: 2em;
+}
+
+/*story.html*/
+
+.sTextUL{
+    height: fit-content;
+    min-height: 500px;
+    width: 60%;
+    text-align: justify;
+    float: left;
+}
+
+.sImgUR{
+    height: fit-content;
+    min-height: 500px;
+    width: 40%;
+    text-align: left;
+    float: right;
+}
+
+.sTextLR{
+    height: fit-content;
+    min-height: 350px;
+    width: auto;
+    text-align: justify;
+    padding-left: 15px;
+}
+
+.sImgLL{
+    height: fit-content;
+    width: 805px;
+    text-align: left;
+    float: left;
+}
+
+/*index.html*/
+
+.transBox{
+    height: fit-content;
+    width: fit-content;
+    max-width: 460px;
+    background-color: rgba(20, 20, 20, 0.637);
+    float: left;
+    padding: 20px;
+    margin: 5%;
+    margin-left: 6%;
+}
+
+.navAlt{
+    height: 50px;
+    width: 100%;
+    font-size: 32px;
+    background-color: #026873;
+    text-align: center;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    left: auto;
+    right: auto;
+}
+
+/*gallery.html*/
+
+.galBack{
+    background-color: lightgray;
+    width: 80vw;
+    height: 75vh;
+    padding: 3em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 110px;
+}
